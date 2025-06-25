@@ -8,23 +8,32 @@ div {
     margin: 10px;
 }
 
-.heading {
+.content {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #e0c89c;
+    padding: 10px;
+}
+
+h1 {
     text-align: center;
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:blanchedalmond;
+    background-color: #3b2f2f;
     padding: 10px auto;
+    color: #e0c89c;
+    border-radius: 5px;
 }
 
-.recipes {
-    display: inline-block;
-    align-items: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 20px 125px auto;
+.recipe-list {
+    text-align: center;
+    color: #e0c89c;
+    list-style: none;
+    margin-top: 20px;
 }
 
-.recipes a {
+.recipe a {
     text-decoration: none;
-    color: black;
     font-size: 18px;
+    color:#3b2f2f;
+    font-weight: bold;
 }
