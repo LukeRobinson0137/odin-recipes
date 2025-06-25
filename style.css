@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:blanchedalmond;
+    padding: 10px auto;
+}
+
+.recipes {
+    display: inline-block;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px 125px auto;
+}
+
+.recipes a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
